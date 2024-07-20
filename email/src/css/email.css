@@ -1,0 +1,115 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.body{
+    background-color: #999999;
+}
+.big-div{
+    width: 60%;
+    background-color: #fff;
+     margin: auto;
+}
+.img{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.text-little{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-weight: 600;
+    text-align: center;
+    color: #555555;
+}
+.text-little p {
+    width: 45%;
+    font-size: 15px;
+}
+
+.inputs-div{
+    margin-top: 20px;
+}
+.input{
+    display: flex;
+    gap: 5px;
+    padding-top: 5px;
+    width: 70%;
+    margin: auto;
+}
+.input p{
+    font-weight: bold;
+    width: 150px;
+    display: flex;
+    align-items: start;
+    justify-content: flex-end;
+    font-size: 14px;
+}
+.input input{
+    width: 100%;
+    height: 20px;
+}
+.button{
+    display: flex;
+    gap: 5px;
+    padding-top: 5px;
+    width: 80%;
+    margin: auto;
+}
+.button-inside{
+    display: block;
+    width: 100%;
+}
+.button-inside h6{
+    color: #666666;
+}
+.button-inside button{
+    width: 130px;
+}
+.button p{
+    font-weight: bold;
+    width: 150px;
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+    font-size: 14px;
+    color: #fff;
+}
+.input-1{
+    display: flex;
+    gap: 20px;  
+    width: 100%;
+}
+.input-2{
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+.input-2 input{
+    width: 15px !important;
+}
+.input-2 p{
+    justify-content: start;
+    font-weight: 500;
+}
+.input-3{
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+.input-3 input{
+    width: 15px !important;
+    height: 15px !important;
+}
+.input-3 p{
+    justify-content: start;
+    font-weight: 500;
+    width: auto;
+}
+.input textarea{
+    width: 100%;
+    height: 200px;
+}
