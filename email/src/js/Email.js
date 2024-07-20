@@ -32,38 +32,45 @@ export default function Email() {
                     <input type="text" />
                 </div>
                 <div className="input">
-                    <p>Attachment:</p>
-                    <input type="file" />
+                <p>Attachment:</p>
+                <input type="file" />
                 </div>
                 <div className="button">
-                    <p>.</p>
-                    <div className="button-inside">
-                        <h6>Attach another file</h6>
-                        <button>Advanced Settings</button>       
-                    </div>
+                <p>.</p>
+                <div className="button-inside">
+                <h6>Attach another file</h6>
+                <button>Advanced Settings</button>       
+                </div>
                 </div>
                 <div className="input">
-                    <p>Content-Type:</p>
-                    <div className="input-1">
-                        <div className="input-2">
-                            <input type="radio" name="content-type" />
-                            <p>text/plain</p>
-                        </div>
-                        <div className="input-3">
-                            <input type="radio" name="content-type" />
-                            <p>text/html</p>
-                            <input type="checkbox" />
-                            <p>Editor</p>
-                        </div>
-                    </div>
+                <p>Content-Type:</p>
+                <div className="input-1">
+                <div className="input-2">
+                <input type="radio" name="content-type" />
+                <p>text/plain</p>
+                </div>
+                <div className="input-3">
+                <input type="radio" name="content-type" />
+                <p>text/html</p>
+                <input type="checkbox" />
+                <p>Editor</p>
+                </div>
+                </div>
                 </div>
                 <div className="input">
-                    <p>Text:</p>
-                    <textarea name="" id=""></textarea>
+                <p>Text:</p>
+                <textarea name="" id=""></textarea>
                 </div>
                 <div className="input">
-                    <p>Captcha:</p>
-                  
+                <p>Captcha:</p>
+                <div className="captcha"></div>
+                </div>
+                <div className="button-2">
+                <p>.</p>
+                <div className="button-5">
+                <button className='button-3'>Send</button>
+                <button className='button-4'>Clear</button>
+                </div>
                 </div>
             </div>
         </div>
